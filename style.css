@@ -1,7 +1,15 @@
+html{
+    height:100%;
+    margin:0;
+}
 body{
-    background-color: #00639C;
+    background-image: url("Bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu{
     display: grid;
@@ -14,7 +22,6 @@ body{
     aspect-ratio: 3/4;
     border: 4px solid white;
     border-radius: 5%;
-    margin: 2% auto;
     padding: 2%;
 }
 .menu img{
